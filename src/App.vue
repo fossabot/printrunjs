@@ -15,10 +15,13 @@
             Test
           </v-col>
           <v-col cols="6">
-            Test
+            <router-view></router-view>
           </v-col>
-          <v-col cols="3">
-            Test
+          <v-col
+            cols="3"
+            v-if="showConsole"
+          >
+            <Console />
           </v-col>
         </v-row>
       </v-container>
@@ -39,14 +42,21 @@ html {
 import Vue from 'vue'
 import AppBar from './components/AppBar.vue'
 import StatusBar from './components/StatusBar.vue'
+import Console from './components/Console.vue'
+import { mapState } from 'vuex'
 
 export default Vue.extend({
   name: 'App',
 
   components: {
     AppBar,
-    StatusBar
+    StatusBar,
+    Console
   },
+
+  computed: mapState([
+    'showConsole'
+  ]),
 
   data: () => ({
     //

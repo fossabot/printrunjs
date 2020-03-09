@@ -10,12 +10,7 @@
       <v-toolbar-title>PrintRunJS</v-toolbar-title>
     </div>
 
-    <v-spacer></v-spacer>
-
-    <v-tabs
-      centered
-      slider-color="black"
-    >
+    <v-tabs centered>
       <v-tab>
         Plater
       </v-tab>
@@ -25,7 +20,7 @@
     </v-tabs>
 
     <v-btn
-      @click="drawer = true"
+      @click.stop="toggleConsole"
       text
     >
       <v-icon>mdi-console-line</v-icon>
@@ -35,12 +30,13 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import { mapMutations } from 'vuex'
 
 export default Vue.extend({
   name: 'AppBar',
 
-  data: () => ({
-    //
-  })
+  methods: mapMutations([
+    'toggleConsole'
+  ])
 })
 </script>

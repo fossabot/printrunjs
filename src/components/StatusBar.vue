@@ -10,10 +10,6 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  name: 'StatusBar',
-
-  data: () => ({
-    //
-  })
+  name: 'StatusBar'
 })
 </script>
