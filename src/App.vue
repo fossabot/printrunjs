@@ -17,12 +17,14 @@
           <v-col cols="6">
             <router-view></router-view>
           </v-col>
-          <v-col
-            cols="3"
-            v-if="showConsole"
-          >
-            <Console />
-          </v-col>
+          <transition name="slide-x-reverse-transition">
+            <v-col
+              cols="3"
+              v-show="showConsole"
+            >
+              <Console />
+            </v-col>
+          </transition>
         </v-row>
       </v-container>
     </v-content>
