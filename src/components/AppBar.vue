@@ -11,10 +11,10 @@
     </div>
 
     <v-tabs centered>
-      <v-tab>
+      <v-tab to="/">
         Plater
       </v-tab>
-      <v-tab>
+      <v-tab to="/camera">
         Camera
       </v-tab>
     </v-tabs>
