@@ -1039,6 +1039,13 @@
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
   integrity sha512-ce5d3q03Ex0sy4R14722Rmt6MT07Ua+k4FwDfdcToYJcMKNtRVQvJ6JCAPdAmAnbRb6CsX6aYb9m96NGod9uTw==
 
+"@types/serialport@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@types/serialport/-/serialport-8.0.0.tgz#c933cdba5bd9d9576302db03fdbb615fe95d4d2f"
+  integrity sha512-Hz57S0cH1Be94u1UO4kwp+1XwAk0GA5RrL16Gx0wZDLyP8gr+h5qQXFS4OygxjNZcE26cTMnT7s31AlezY+jbw==
+  dependencies:
+    "@types/node" "*"
+
 "@types/sizzle@2.3.2":
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/@types/sizzle/-/sizzle-2.3.2.tgz#a811b8c18e2babab7d542b3365887ae2e4d9de47"

@@ -1,5 +1,5 @@
 {
-  "name": "hello-world",
+  "name": "PrintRunJS",
   "version": "0.1.0",
   "author": "Alexandre Iooss <erdnaxe@crans.org>",
   "license": "GPL",
@@ -21,6 +21,7 @@
   },
   "main": "background.js",
   "dependencies": {
+    "@types/serialport": "^8.0.0",
     "core-js": "^3.6.4",
     "register-service-worker": "^1.6.2",
     "serialport": "^8.0.7",

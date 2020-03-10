@@ -46,6 +46,7 @@ import AppBar from './components/AppBar.vue'
 import StatusBar from './components/StatusBar.vue'
 import Console from './components/Console.vue'
 import { mapState } from 'vuex'
+import SerialPort from 'serialport'
 
 export default Vue.extend({
   name: 'App',
@@ -61,7 +62,7 @@ export default Vue.extend({
   ]),
 
   data: () => ({
-    //
+    serialPorts: SerialPort.list()
   })
 })
 </script>
