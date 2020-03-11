@@ -1,34 +1,25 @@
 # printrunjs
 
-## Project setup
+## How to develop
+
+### Run as a standalone application
+
 ```
 yarn install
+yarn run electron:serve
 ```
 
-### Compiles and hot-reloads for development
+### Run as a webserver
+
+Use the same instructions as last section but use
+
 ```
-yarn serve
+yarn run serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## License
 
-### Run your unit tests
-```
-yarn test:unit
-```
+This project is under GPL-v3 license because we believe in open development.
+Please see LICENSE file for more details.
 
-### Run your end-to-end tests
-```
-yarn test:e2e
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Some assets are from [PrintRun](https://github.com/kliment/Printrun/).
