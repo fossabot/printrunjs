@@ -6,9 +6,7 @@
   >
     <v-card-text>
       <div>Serial Console</div>
-      <div class="text--primary">
-        Console in WIP
-      </div>
+      <pre class="text--primary">{{ consoleText }}</pre>
     </v-card-text>
 
     <v-spacer></v-spacer>
@@ -27,8 +25,12 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import { mapState } from 'vuex'
 
 export default Vue.extend({
-  name: 'Console'
+  name: 'Console',
+  computed: mapState({
+    consoleText: 'consoleText'
+  })
 })
 </script>

@@ -5,10 +5,12 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    showConsole: true
+    showConsole: true,
+    consoleText: ''
   },
   mutations: {
-    toggleConsole: state => { state.showConsole = !state.showConsole }
+    toggleConsole: state => { state.showConsole = !state.showConsole },
+    pushToConsole: (state, message) => { state.consoleText += message + '\n' }
   },
   actions: {
   },
