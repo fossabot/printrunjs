@@ -1,4 +1,6 @@
 # printrunjs
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ferdnaxe%2Fprintrunjs.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Ferdnaxe%2Fprintrunjs?ref=badge_shield)
+
 
 ## How to develop
 
@@ -23,3 +25,6 @@ This project is under GPL-v3 license because we believe in open development.
 Please see LICENSE file for more details.
 
 Some assets are from [PrintRun](https://github.com/kliment/Printrun/).
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ferdnaxe%2Fprintrunjs.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Ferdnaxe%2Fprintrunjs?ref=badge_large)
